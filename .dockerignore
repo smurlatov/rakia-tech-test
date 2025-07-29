@@ -1,0 +1,52 @@
+# Build artifacts
+blog-api
+blog-api_unix
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test artifacts
+coverage.out
+coverage.html
+
+# Git
+.git
+.gitignore
+README.md
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies
+vendor/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Logs
+*.log
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Documentation
+docs/
+*.md
+
+# Test data
+test/
+
+# Development tools
+.air.toml
+Makefile 

@@ -1,0 +1,73 @@
+# ===================================
+# Go .gitignore for blog-api project
+# ===================================
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go binary for this project
+blog-api
+blog-api.exe
+main
+main.exe
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+coverage.out
+coverage.html
+*.out
+
+# Go workspace file
+go.work
+
+# Vendor directory (if using go mod vendor)
+vendor/
+
+# ===================================
+# Logs and temporary files
+# ===================================
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Temporary folders
+tmp/
+temp/
+.tmp/
+.temp/
+
+# Temporary files
+*.tmp
+
+# macOS system files
+.DS_Store
+.DS_Store?
+._*
+
+# ===================================
+# Docker & Deployment
+# ===================================
+
+# Docker volumes (if any)
+docker-volumes/
+
+# Environment files (if any secrets)
+.env
+.env.local
+.env.*.local
